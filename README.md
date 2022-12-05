@@ -1,1 +1,1 @@
-# Synapse-for-beginners
+# Synapse-for-Beginners
