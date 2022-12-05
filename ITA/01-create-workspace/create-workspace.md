@@ -54,7 +54,7 @@ Nella sezione *Manage* sara' necessario creare un pool di **Apache Spark**, attr
 
 ![image](https://user-images.githubusercontent.com/77077281/205746702-ad686504-71cd-408c-9601-249b59659b5e.png)
 
-Ora sara' possibile creare il Pool di Spark vero e proprio (ulteriori informazioni su questo tipo di Pool piu' avanti), per ora ci basta sapere che e' un engine molto comune per l'analisi di big data e machine learning. Apache Spark lavora con un architettura di tipo master-slave ed e' spesso utilizzato dai Data Engineer per flussi ETL usando l'API di Python: PySpark.
+Ora sara' possibile creare il Pool di Spark vero e proprio (ulteriori informazioni su questo tipo di Pool piu' avanti), per ora basta sapere che e' un engine molto comune per l'analisi di big data e machine learning. Apache Spark lavora con un'architettura di tipo master-slave ed e' spesso utilizzato dai Data Engineer per flussi ETL usando l'API di Python: PySpark.
 
 ![image](https://user-images.githubusercontent.com/77077281/205747381-1039afe8-fb4c-467f-996d-0addfcdf54fa.png)
 
