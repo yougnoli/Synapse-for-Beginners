@@ -31,4 +31,23 @@ Fornire una password per la SQL Server admin login.
 
 E' poi possibile passare direttamente al *Review + Create* e poi cliccare in basso a sinistra il bottone di *Create*.
 
+Una volta che il deployment del servizio e' completo, all'interno del resource group avremo:
+- Storage account
+- Synapse workspace
+
+![image](https://user-images.githubusercontent.com/77077281/205743722-63b845bc-2ec2-4895-aac4-0d6e0416d329.png)
+
 # Create sample data in the DataLake
+Cliccando sullo storage account sara' possibile creare un container che ospitera' i dati per la demo.
+Sulla sinistra sotto *Data Storage* c'e' la sezione *Containers*.
+Dopo di che e' possibile creare un nuovo container che chiamero' *container01*.
+
+![image](https://user-images.githubusercontent.com/77077281/205744976-a037abaf-2917-4ee9-b968-add3fbfbc57a.png)
+
+Ora e' possibile passare al workspace vero e proprio. Nel prossimo capitolo faro' un'overview generale di tutte le sezioni del workspace.
+Tornando all'interno del resource group, e' possibile cliccare sul workspace di Synapse, dopo di che si dovra' cliccare su *Open* nel box sotto *Getting started*:
+
+![image](https://user-images.githubusercontent.com/77077281/205745609-1f0f4f4f-d5ad-498d-8d82-1a896a376a8d.png)
+
+Si aprira' una nuova scheda del browser che porta al *Synapse Analytics workspace*.
+Nella sezione *Manage* sara' necessario creare un pool di **Apache Spark**, che ci permettera' di avere tutti i dati di esempio attraverso l'esecuzione di un [Notebook]()
