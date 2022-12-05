@@ -72,4 +72,8 @@ Importato il [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/m
 
 Una volta selezionato il pool (ed effettuato le modifiche alle ultime tre celle di codice) sara' possibile eseguire tutto il [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) con il buttone *Run all* sulla sinistra.
 
-
+Eseguito l'intero Notebook dentro al DataLake ci saranno i dati dei vigli del fuoco di San Francisco. Saranno divisi in 3 diverse formati:
+- csv
+- parquet
+- delta
+Tutti i dati di ogni tipo di formato sara' ugualmente partizionato per anno, per mese e per giorno.
