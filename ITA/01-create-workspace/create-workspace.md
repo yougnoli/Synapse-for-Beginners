@@ -24,5 +24,11 @@ Per creare la risorsa vera e propria e' necessario:
 
 ![image](https://user-images.githubusercontent.com/77077281/205741410-aadf5944-e528-48bb-938a-b350fe1f9cb1.png)
 
+Al prossimo dtep di creazione e' possibile definire i metodi di autenticazione.
+Fornire una password per la SQL Server admin login.
+
+![image](https://user-images.githubusercontent.com/77077281/205742344-3cce071d-92d2-4c16-b199-a4f8724b657c.png)
+
+E' poi possibile passare direttamente al *Review + Create* e poi cliccare in basso a sinistra il bottone di *Create*.
 
 # Create sample data in the DataLake
