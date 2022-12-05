@@ -50,4 +50,26 @@ Tornando all'interno del resource group, e' possibile cliccare sul workspace di 
 ![image](https://user-images.githubusercontent.com/77077281/205745609-1f0f4f4f-d5ad-498d-8d82-1a896a376a8d.png)
 
 Si aprira' una nuova scheda del browser che porta al *Synapse Analytics workspace*.
-Nella sezione *Manage* sara' necessario creare un pool di **Apache Spark**, che ci permettera' di avere tutti i dati di esempio attraverso l'esecuzione di un [Notebook]()
+Nella sezione *Manage* sara' necessario creare un pool di **Apache Spark**, che ci permettera' di avere tutti i dati di esempio attraverso l'esecuzione di un [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb).
+
+![image](https://user-images.githubusercontent.com/77077281/205746702-ad686504-71cd-408c-9601-249b59659b5e.png)
+
+Ora sara' possibile creare il Pool di Spark vero e proprio (ulteriori informazioni su questo tipo di Pool piu' avanti), per ora ci basta sapere che e' un engine molto comune per l'analisi di big data e machine learning. Apache Spark lavora con un architettura di tipo master-slave ed e' spesso utilizzato dai Data Engineer per flussi ETL usando l'API di Python: PySpark.
+
+![image](https://user-images.githubusercontent.com/77077281/205747381-1039afe8-fb4c-467f-996d-0addfcdf54fa.png)
+
+E' necessario poi cliccare sul bottone di *Review + create* in basso a sinistra, poi *Create*.
+Una volta completato il deployment, sara' necessario importare il [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) per la creazione dei dati nel **container01** del datalake creato precedentemente (dldemoat).
+Per fare questo nella sezione *Develop*, cliccare sul *+* e importare il [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb). 
+
+Nota: nel [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) sara' necessario cambiare le ultime tre celle di codice. Dove e' presente questa stringa (il percorso per salvare i dati nel *container01*) 'abfss://container01@dlsyntestmm.dfs.core.windows.net/sanfrancisco/csv' al posto di *dlsyntestmm* si dovra' mettere il nome del proprio datalake.
+
+![image](https://user-images.githubusercontent.com/77077281/205749652-682139ee-315a-4c77-9234-9bed5d70f29a.png)
+
+Importato il [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb), si dovra' assegnare il pool di Apache Spark (SparkPool01), prima di eseguirlo tutto.
+
+![image](https://user-images.githubusercontent.com/77077281/205750376-edc054c2-24ec-41c3-b8e8-d95bc772ed33.png)
+
+Una volta selezionato il pool (ed effettuato le modifiche alle ultime tre celle di codice) sara' possibile eseguire tutto il [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) con il buttone *Run all* sulla sinistra.
+
+
