@@ -1,5 +1,5 @@
 # Provisioning Azure Synapse Analytics
-Per poter creare il servizio di Azure Synapse Analytics e' necessario avere un account [Azure]([portal.](https://portal.azure.com/).
+Per poter creare il servizio di Azure Synapse Analytics e' necessario avere un account [Azure](https://portal.azure.com/).
 Per prima cosa bisogna creare un **Resource Group** che conterra' il servizio di Synapse e i relativi altri servizi che lavoreranno con esso.
 
 ![image](https://user-images.githubusercontent.com/77077281/205738587-5f9ee34a-23fd-4894-8d40-9d7bcd11087e.png)
