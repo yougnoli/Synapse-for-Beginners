@@ -3,7 +3,7 @@ Per poter creare il servizio di Azure Synapse Analytics e' necessario avere un a
 Per prima cosa bisogna creare un **Resource Group** che conterra' il servizio di Synapse e i relativi altri servizi che lavoreranno con esso.
 
 ![image](https://user-images.githubusercontent.com/77077281/205738587-5f9ee34a-23fd-4894-8d40-9d7bcd11087e.png)
-![image](https://user-images.githubusercontent.com/77077281/205738923-9be1bc2e-8486-4e2d-9972-8579ea24f2ea.png)
+![image](https://user-images.githubusercontent.com/77077281/205751320-60ce69f8-8798-4848-b24e-192b78b9a80a.png)
 
 - Nome univoco per il resource group
 - Regione dove sara' provisionata la risorsa
