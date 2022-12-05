@@ -50,7 +50,7 @@ Tornando all'interno del resource group, e' possibile cliccare sul workspace di 
 ![image](https://user-images.githubusercontent.com/77077281/205745609-1f0f4f4f-d5ad-498d-8d82-1a896a376a8d.png)
 
 Si aprira' una nuova scheda del browser che porta al *Synapse Analytics workspace*.
-Nella sezione *Manage* sara' necessario creare un pool di **Apache Spark**, che ci permettera' di avere tutti i dati di esempio attraverso l'esecuzione di un [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb).
+Nella sezione *Manage* sara' necessario creare un pool di **Apache Spark**, attraverso l'esecuzione di un [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) si avranno tutti i dati di esempio.
 
 ![image](https://user-images.githubusercontent.com/77077281/205746702-ad686504-71cd-408c-9601-249b59659b5e.png)
 
