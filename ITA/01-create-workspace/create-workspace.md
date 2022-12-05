@@ -24,7 +24,7 @@ Per creare la risorsa vera e propria e' necessario:
 
 ![image](https://user-images.githubusercontent.com/77077281/205741410-aadf5944-e528-48bb-938a-b350fe1f9cb1.png)
 
-Al prossimo dtep di creazione e' possibile definire i metodi di autenticazione.
+Al prossimo step di creazione e' possibile definire i metodi di autenticazione.
 Fornire una password per la SQL Server admin login.
 
 ![image](https://user-images.githubusercontent.com/77077281/205742344-3cce071d-92d2-4c16-b199-a4f8724b657c.png)
@@ -35,7 +35,7 @@ Una volta che il deployment del servizio e' completo, all'interno del resource g
 - Storage account
 - Synapse workspace
 
-![image](https://user-images.githubusercontent.com/77077281/205743722-63b845bc-2ec2-4895-aac4-0d6e0416d329.png)
+![image](https://user-images.githubusercontent.com/77077281/205755786-540303dc-fa67-447e-8fbc-b5bc35285527.png)
 
 # Create sample data in the DataLake
 Cliccando sullo storage account sara' possibile creare un container che ospitera' i dati per la demo.
