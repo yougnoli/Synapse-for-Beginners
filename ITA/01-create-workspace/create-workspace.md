@@ -62,7 +62,7 @@ E' necessario poi cliccare sul bottone di *Review + create* in basso a sinistra,
 Una volta completato il deployment, sara' necessario importare il [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) per la creazione dei dati nel **container01** del datalake creato precedentemente (dldemoat).
 Per fare questo nella sezione *Develop*, cliccare sul *+* e importare il [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb). 
 
-Nota: nel [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) sara' necessario cambiare le ultime tre celle di codice. Dove e' presente questa stringa (il percorso per salvare i dati nel *container01*) 'abfss://container01@dlsyntestmm.dfs.core.windows.net/sanfrancisco/csv' al posto di *dlsyntestmm* si dovra' mettere il nome del proprio datalake.
+Nota: nel [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) sara' necessario cambiare le ultime tre celle di codice. Dove e' presente questa stringa (il percorso per salvare i dati nel *container01*) 'abfss://**container01**@<span>**dlsyntestmm**.dfs.core.windows.net/sanfrancisco/csv' al posto di *dlsyntestmm* si dovra' mettere il nome del proprio datalake.
 
 ![image](https://user-images.githubusercontent.com/77077281/205749652-682139ee-315a-4c77-9234-9bed5d70f29a.png)
 
