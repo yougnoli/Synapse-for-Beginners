@@ -76,4 +76,5 @@ Executed the entire Notebook inside the DataLake there will be the data of the f
 - csv
 - parquet
 - delta
+
 All data of any format type will be equally partitioned by year, by month and by day.
