@@ -20,7 +20,7 @@ To create the real resource it is necessary:
 - Give a unique name to the workspace
 - Region where the workspace will be provisioned
 - Create from *Create new* the datalake (storage account that will contain the data for the demo)
-- Create the sysytem file (default storage account container) from *Create new*
+- Create from *Create new* the system file (default storage account container)
 
 ![image](https://user-images.githubusercontent.com/77077281/205741410-aadf5944-e528-48bb-938a-b350fe1f9cb1.png)
 
