@@ -59,7 +59,7 @@ Now it will be possible to create the actual Spark Pool (more information on thi
 ![image](https://user-images.githubusercontent.com/77077281/205747381-1039afe8-fb4c-467f-996d-0addfcdf54fa.png)
 
 It is then necessary to click on the *Review + create* button at the bottom left, then *Create*.
-Once the deployment is complete, you will need to import the [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) per la creazione dei dati nel **container01** del datalake creato precedentemente (dldemoat).
+Once the deployment is complete, you will need to import the [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) for creating sample data in the **container01** of the previously created datalake (dldemoat).
 To do this in the *Develop* section, click on the *+* and import the [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb). 
 
 Note: in the [Notebook](https://github.com/yougnoli/Synapse-for-Beginners/blob/main/ITA/01-create-workspace/create-datalake-san-francisco-csv-parquet-delta.ipynb) you will need to change the last three code cells. Where this string is present (the path to save data in *container01*) 'abfss://**container01**@<span>**dlsyntestmm**.dfs.core.windows.net/sanfrancisco/csv' instead of *dlsyntestmm* you will have to put the name of your datalake.
